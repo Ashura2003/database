@@ -2,9 +2,10 @@ from tkinter import *
 import sqlite3
 from tkinter import messagebox
 
+
 root=Tk()
 
-root.config(bg='grey')
+root.config(bg='white')
 root.title("Facebook Database")
 root.iconbitmap("fb.ico")
 root.maxsize(width=505,height=500)
